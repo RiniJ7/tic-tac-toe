@@ -35,7 +35,12 @@ const TicTacToe = () => {
       won(data);
     } else if (data[3] === data[4] && data[4] === data[5] && data[5] !== "") {
       won(data);
-    }
+    } else if (data[6] === data[7] && data[4] === data[8] && data[8] !== "") {
+      won(data);
+    } else if (data[3] === data[4] && data[4] === data[5] && data[5] !== "") {
+      won(data);
+    } else if (data[3] === data[4] && data[4] === data[5] && data[5] !== "") {
+      won(data);
   };
 
   //if the winning condition is fulfilled the function "won" setLock to true. Data cannot be modified further
